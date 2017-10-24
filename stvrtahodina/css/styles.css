@@ -1,0 +1,66 @@
+body, html {
+	height: 100%
+}
+
+.main-content {
+	background-color: red;
+	max-width: 900 px;
+	widt: 100%;
+	min-height: 100%;
+	margin: 0 auto;
+}
+
+.main-contebt-wrappeer {
+	height: 1000 px;
+}
+.title/small {
+	background-color: rgba (0, 0, 255, .5) ;
+}
+
+.color/optical50 {
+	/*opacity: .5*/
+}
+
+.holder-box {
+	border: 1px solid;
+}
+
+.wrapper-img {
+	max-widt: 100%;
+	max-height: 100%;
+}
+.holder-box-list {
+	border: 1px solid black;
+	max-width> 700px
+	widt: 100%;
+	margin: 0 auto;
+}
+holder-box-list {
+	border: 1px solid black;
+	max-width> 700px
+	widt: 100%;
+	margin: 0 auto;
+
+.list {
+	display flex;
+	flex-direction
+
+	padding: 20px;
+}
+
+
+.list-li {
+	flex
+}
+.list-li-a {
+	display: block;
+	background: green
+	color: yellow;
+	border: 1px solid yellow;
+}
+
+.list-li-a: hover {
+	text-decoration: none
+	background-color: yellow;
+	color: green;
+}
