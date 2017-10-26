@@ -1,0 +1,18 @@
+body, html {
+	height: 100%
+}
+
+.title-right {
+	text-algin: rifght;
+}
+
+.box-holder {
+	display: table;
+	height: 100px;
+	width: 100%;
+}
+
+.box-holder-text {
+	display: table-ceel;
+	vertcal-align: middle;
+}
