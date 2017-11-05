@@ -1,0 +1,91 @@
+body, html {
+	height: 100%
+} 
+
+body {
+	word-wrap: break-word;
+	word-break: break-word;
+	background-color: black;
+} 
+
+a {
+	user-select: none;
+	text-decoration: none;
+	display: block;
+}
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+.zakladnyram {
+	margin: 100px 200px 70px 250px;
+	border: 5px solid white;
+	text-align: center;
+}
+
+.nadpishlavny {
+	color: white;
+}
+
+.linka {
+	color: black;
+	background: white;
+}
+
+.zoznam-specilany {
+	border: 1px solid yellow;
+}
+
+.zoynam-flex {
+	width: calc(100%/3);
+}
+
+.zoznam-specilany li {
+	float: left;
+	width: calc(100%/3);
+}
+
+.prvytext {
+	color: yellow;
+}
+
+.druhytext {
+	color: white;
+}
+
+.tretitext {
+	color: yellow;
+}
+
+.zoznam-flex {
+	display: flex;
+}
+
+.zoznam-flex li {
+	flex: 1;
+}
+
+.li {
+	display: flex:
+	wraper: box;
+}
+
+.stlpec1 {
+	color: black;
+	background: red;
+}
+
+.stlpec2 {
+	color: black;
+	background: blue;	
+}
+
+.stlpec3 {
+	color: black;
+	background: green;
+}
+
+
