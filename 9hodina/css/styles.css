@@ -1,0 +1,99 @@
+.container {
+  background-color:black
+  margin: 50px auto;
+  width: 960px;
+}
+
+.box {
+  position: relative;
+}
+
+.box:hover {
+  z-index: 10;
+}
+
+.grey {
+  z-index: 1;
+  background: red;
+  width: 127px;
+  height: 125px;
+  left: 400px;
+  top:90px;
+}
+
+.yellow {
+  z-index: 1;
+  background: blue;
+  width: 147px;
+  height: 150px;
+  left: 414px;
+  top:-44px;
+}
+
+.red {
+  position: fixed; 
+  z-index: 1;
+  background: green;
+  width: 157px;
+  height: 165px;
+  left: 0;
+  top: 0;
+}
+
+.light-blue {
+  z-index: 1;
+  background: grey;
+  width: 167px;
+  height: 175px;
+  left: 550px;
+  top:120px;
+}
+
+.blue {
+  z-index: 1;
+  background: blue;
+  width: 177px;
+  height: 185px;
+  left: 414px;
+  top:130px;
+  }
+
+  .green {
+  z-index: 1;
+  background: blueviolet;
+  width: 187px;
+  height: 195px;
+  left: 600px;
+  top:140px;
+  }
+
+  .box:hover {
+    z-index: 10;
+  }
+
+  .title-main:after {
+    font-size: 20px; 
+  }
+
+.link,
+.title-main {
+  position: relative;
+  color:black;
+  background-color: yellow;
+  border: 1px solid black;
+  font-size: 50px; 
+  padding-left:35px; 
+}
+
+.title-main:after {
+  position:absolute;
+  top: 50%;
+  font-size: 30px;
+  left: 0;
+  transform: translateY (-50%);
+  z-index:-40px ;
+}
+
+.icon-star-full:after {
+  left:-40px ;
+}
